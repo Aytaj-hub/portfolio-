@@ -4,38 +4,116 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aytaj Mammadova - Alman Dili Müəllimi</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f9;
+        }
+        .resume {
+            width: 85%;
+            max-width: 960px;
+            margin: 20px auto;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        .profile {
+            background-color: #0056b3;
+            color: #fff;
+            text-align: center;
+            padding: 40px 20px;
+        }
+        .profile img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin-top: 20px;
+        }
+        .info, .about, .contact {
+            padding: 20px;
+        }
+        .info h1 {
+            margin: 10px 0;
+            font-size: 24px;
+        }
+        .info h2 {
+            margin: 5px 0;
+            font-size: 18px;
+            font-weight: 400;
+        }
+        .about h3, .contact h3 {
+            margin-bottom: 10px;
+            color: #0056b3;
+            text-transform: uppercase;
+        }
+        .contact a {
+            color: #0056b3;
+            text-decoration: none;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+        .follow {
+            display: flex;
+            justify-content: center;
+            padding-bottom: 20px;
+        }
+        .follow a {
+            margin: 0 10px;
+            color: #333;
+        }
+        .skills-bar {
+            background-color: #eee;
+            border-radius: 5px;
+            height: 10px;
+            width: 100%;
+            overflow: hidden;
+        }
+        .bar {
+            height: 10px;
+            background-color: #0056b3;
+            width: 0;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 12px;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Aytaj Mammadova - Alman Dili Müəllimi</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">Haqqımda</a></li>
-                <li><a href="#courses">Dərslər</a></li>
-                <li><a href="#contact">Əlaqə</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <section id="about">
-        <h2>Haqqımda</h2>
-        <p>Mən, Aytaj Mammadova, peşəkar bir Alman dili müəllimiyəm. Dili asan və maraqlı bir şəkildə öyrətmək üçün müasir metodlardan istifadə edirəm.</p>
-        <img src="path_to_image.jpg" alt="Aytaj Mammadova">
-    </section>
-    
-    <section id="courses">
-        <h2>Dərslər</h2>
-        <p>Alman dilini hər yaş və səviyyədə tələbələrə öyrədirəm. Fərdi və qrup dərsləri təklif edirəm.</p>
-    </section>
-    
-    <section id="contact">
-        <h2>Əlaqə</h2>
-        <p>Email: <a href="mailto:aytaj@example.com">aytaj@example.com</a></p>
-        <p>Telefon: <a href="tel:+99412345678">+994 12 345 678</a></p>
-    </section>
-    
+    <div class="resume">
+        <div class="profile">
+            <img src="path_to_image.jpg" alt="Aytaj Mammadova" />
+            <div class="info">
+                <h1>Aytaj Mammadova</h1>
+                <h2>Alman Dili Müəllimi</h2>
+            </div>
+        </div>
+        <div class="about">
+            <h3>Haqqımda</h3>
+            <p>Mən, Aytaj Mammadova, Alman dili müəllimi kimi məsuliyyətli və yaradıcı bir yanaşma təqdim edirəm. Dərslərim interaktiv metodlarla doludur, bu da tələbələrin dil bacarıqlarını inkişaf etdirmələrinə kömək edir.</p>
+        </div>
+        <div class="contact">
+            <h3>Əlaqə</h3>
+            <p><a href="mailto:aytaj@example.com">aytaj@example.com</a></p>
+            <p><a href="tel:+99412345678">+994 12 345 678</a></p>
+        </div>
+        <div class="follow">
+            <a href="https://www.facebook.com/aytaj" target="_blank">Facebook</a>
+            <a href="https://www.linkedin.com/in/aytaj" target="_blank">LinkedIn</a>
+            <a href="https://www.instagram.com/aytaj" target="_blank">Instagram</a>
+        </div>
+    </div>
     <footer>
-        <p>© 2024 Aytaj Mammadova. Bütün hüquqlar qorunur.</p>
+        © 2024 Aytaj Mammadova. Bütün hüquqlar qorunur.
     </footer>
 </body>
 </html>
